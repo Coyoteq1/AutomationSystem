@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3ae478d-b921-4018-b9d0-a654bbcaea4d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.amazonq/agents/default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.amazonq/rules/1dontaskmeforanyapprovalsyoucanrunanycomandsiapprovednowforalltools.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ARCHITECTURE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../APIHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AdminCommands.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArenaCommands.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArenaConfigLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArenaController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArenaEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArenaHook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArmorSet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BloodType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BossReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Commands.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Config.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConfigHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Consumable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ErrorHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GodModeSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loadout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Patch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayerManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DebugTools.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/LoggingService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/PatchService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/PrefabRemapService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/ProgressManagerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/QueueService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/SessionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/SnapshotService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/VectorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Services/WeaponVariantService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpellSchool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../StatMod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Utils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Utils/Helper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../VBloodGUIDs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Weapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../arena_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../config/CrowbaneArena/prefabRemaps.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/logs/usage_tracking.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/.idea/.idea.CrowbaneArenaProject.dir/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/.idea/.idea.CrowbaneArenaProject.dir/.idea/aws.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/.idea/.idea.CrowbaneArenaProject.dir/.idea/deviceManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/.idea/.idea.CrowbaneArenaProject.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/.idea/.idea.CrowbaneArenaProject.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/APIHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/AdminCommands.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/ArenaCommands.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/ArenaConfigLoader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/ArenaController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/ArenaEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/ArenaHook.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/ArmorSet.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/BloodType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/BossReference.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Build.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/CommandHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Commands.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Config.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/ConfigHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Consumable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/CrowbaneArena.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/DataHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/ErrorHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Folder.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/GodModeSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Loadout.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Module1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Module2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Patch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/PlayerManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/ProjectDocumentation.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Scripts/DebugTools.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Services/LoggingService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Services/PatchService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Services/PrefabRemapService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Services/ProgressManagerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Services/QueueService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Services/SessionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Services/SnapshotService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Services/VectorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Services/WeaponVariantService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/SpellSchool.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/StatMod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Utils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Utils/BuffUtility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Utils/Helper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/VBloodGUIDs.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Validation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/Weapon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/arena_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/bin/Debug/net6.0/CrowbaneArena.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/bin/Debug/net6.0/CrowbaneArena.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/bin/Debug/net6.0/CrowbaneArena.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/config/CrowbaneArena/prefabRemaps.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/CrowbaneArena.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/CrowbaneArena.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/CrowbaneArena.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/CrowbaneArena.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/CrowbaneArena.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/CrowbaneArena.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/CrowbaneArena.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/CrowbaneArena.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/CrowbaneArena.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/CrowbaneArena.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/CrowbaneArena.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/ref/CrowbaneArena.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/Debug/net6.0/refint/CrowbaneArena.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CrowbaneArenaProject/server/logs/usage_tracking.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DEFAULT_PREFABS_REFERENCE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ICB.core" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RISINGV_REMOVAL_MIGRATION.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SHAPESHIFT_FORMS_REFERENCE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SPELL_SCHOOL_API_GUIDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mods/ICB.AIAgent/ICB.AIAgent.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mods/ICB.AIAgent/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mods/ICB.Core/ICB.Core.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mods/ICB.Core/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mods/ICB.Shared" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/VRising.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="34UoTBRsSRJjnMFJ6QDqLYAmwtG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3ae478d-b921-4018-b9d0-a654bbcaea4d" name="Changes" comment="" />
+      <created>1761277518002</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761277518002</updated>
+      <workItem from="1761277518559" duration="264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
