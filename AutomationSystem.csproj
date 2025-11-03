@@ -260,7 +260,7 @@
 
   <ItemGroup>
     <!-- Include all source files -->
-    <Compile Include="**\*.cs" Exclude="bin\**;obj\**;DuelingCore\**;Tests\**" />
+    <Compile exclude="**\*.cs" Exclude="bin\**;obj\**;DuelingCore\**;Tests\**" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
@@ -268,3 +268,4 @@
   </Target>
 
 </Project>
+
