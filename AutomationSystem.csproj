@@ -1,0 +1,270 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <RestoreAdditionalProjectSources>https://nuget.bepinex.dev/v3/index.json</RestoreAdditionalProjectSources>
+  </PropertyGroup>
+    <PropertyGroup>
+    <V_RISING_SERVER_DIR>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server</V_RISING_SERVER_DIR>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>AutomationSystem</AssemblyName>
+    <RootNamespace>AutomationSystem</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <OutputType>Library</OutputType>
+        <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    <!-- <DefineConstants>USE_STUBS</DefineConstants> -->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+        <WarningsNotAsErrors>NU1605;CS8632;CS0101;CS0111;CS0234;CS0246</WarningsNotAsErrors>
+        <NoWarn>CS8632;CS0101;CS0111;CS0234;CS0246</NoWarn>
+        <NuGetAudit>false</NuGetAudit>
+        <Authors>Coyoteq1</Authors>
+        <Version>1.0.0</Version>
+        <Description>VRising Arena Mod</Description>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <!-- VRising/BepInEx Assembly References -->
+    <PackageReference Include="BepInEx.Analyzers" Version="1.0.8" PrivateAssets="all" />
+    <PackageReference Include="BepInEx.Core" Version="6.0.0-pre.1" />
+    <PackageReference Include="BepInEx.Il2Cpp.TlsAdapter" Version="1.0.1" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.1.0" />
+    <PackageReference Include="PvZ.Replanted.GameLibs" Version="1.2.1.2" />
+    <PackageReference Include="UnityEngine.Modules" Version="2022.3.9" IncludeAssets="compile" />
+
+      <!-- VRising Assemblies - Commented out as they require VRising to be run with BepInEx first -->
+    <!-- <Reference Include="Assembly-CSharp">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Assembly-CSharp.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VRising.GameData">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\VRising.GameData.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VRising.SDK">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\VRising.SDK.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VRising.Server.Console">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\VRising.Server.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="VRising.Server.Console.Dev">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\VRising.Server.Console.Dev.dll</HintPath>
+      <Private>False</Private>
+    </Reference> -->
+
+    <!-- ProjectM Assemblies -->
+    <Reference Include="ProjectM">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectM.CastleBuilding">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.CastleBuilding.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ProjectM.Gameplay.Systems">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.Gameplay.Systems.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectM.Network">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.Network.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectM.Scripting">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.Scripting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectM.Shared">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.Shared.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectM.Shared.Systems">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.Shared.Systems.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectM.CodeGeneration">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.CodeGeneration.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- Stunlock Assemblies -->
+    <Reference Include="Stunlock.Core">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Stunlock.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Stunlock.Core.Animation">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Stunlock.Core.Animation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Stunlock.Network">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Stunlock.Network.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Stunlock.Console">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Stunlock.Console.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Stunlock.Localization">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Stunlock.Localization.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Stunlock.Tools">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Stunlock.Tools.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- BepInEx Core Assemblies -->
+    <Reference Include="BepInEx.Core">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\core\BepInEx.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx.Unity.IL2CPP">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\core\BepInEx.Unity.IL2CPP.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Il2CppInterop.Common">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\core\Il2CppInterop.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- Unity DOTS/ECS Assemblies -->
+    <Reference Include="Unity.Entities">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Unity.Entities.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Entities.Hybrid">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Unity.Entities.Hybrid.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Transforms">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Unity.Transforms.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Physics">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Unity.Physics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- Additional ProjectM Assemblies -->
+    <Reference Include="ProjectM.Gameplay.Scripting">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.Gameplay.Scripting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectM.Terrain">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.Terrain.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectM.Persistence">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.Persistence.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="ProjectM.Shared.Scripting">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\ProjectM.Shared.Scripting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+    <!-- Additional Stunlock Assemblies -->
+    <Reference Include="Stunlock.Scripting">
+      <HintPath>$(V_RISING_SERVER_DIR)\BepInEx\interop\Stunlock.Scripting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+
+      <!-- Unity Assemblies -->
+      <Reference Include="UnityEngine">
+          <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\VRising_Data\Managed\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+          <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\VRising_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+
+      <!-- IL2CPP Assemblies -->
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\core\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\core\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\core\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+
+    <!-- Unity Libraries -->
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\unity-libs\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\unity-libs\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+
+    <!-- Project References -->
+
+    <!-- <PackageReference Include="RisingV.Scripting" Version="0.1.2" /> -->
+
+    <!-- VRisingArenaBuilds Dependency - REMOVED (implemented locally) -->
+    <!-- <PackageReference Include="VRisingArenaBuilds" Version="1.0.0" /> -->
+
+    <!-- VRising Dependencies - Using VampireCommandFramework.dll -->
+    <Reference Include="VampireCommandFramework">
+      <HintPath>VampireCommandFramework.dll</HintPath>
+    </Reference>
+      <!-- Reference Include="KindredSchematics">
+          <HintPath>C:\Users\ahmad\OneDrive\Desktop\KindredSchematics\KindredSchematics.dll</HintPath>
+    </Reference -->
+      <Reference Include="CrowbaneArena">
+          <HintPath>C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\Controllers\CrowbaneArena\bin\Release\net6.0\CrowbaneArena.dll</HintPath>
+      </Reference>
+    <!-- Local VRising assemblies are referenced directly -->
+
+    <!-- BepInEx IL2CPP Support (temporarily commented out for testing) -->
+    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.1" Private="false" ExcludeAssets="runtime;native" />
+
+      <!-- HookDOTS - Local DLL reference -->
+      <!-- <Reference Include="HookDOTS.API">
+          <HintPath>libs\HookDOTS.API.dll</HintPath>
+      </Reference> -->
+
+      <!-- CSync - Configuration syncing library -->
+    <PackageReference Include="Sigurd.BepInEx.CSync" Version="5.0.1" />
+
+      <!-- RisingV Dependencies - Required for IManageableLifecycle interface -->
+    <PackageReference Include="RisingV.Shared" Version="0.1.3" />
+    <PackageReference Include="RisingV.Core" Version="0.1.3" />
+
+    <!-- Microsoft Dependencies -->
+    <PackageReference Include="Microsoft.CSharp" Version="[4.7.0, )" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="[6.0.0, )" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="8.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Include all source files -->
+    <Compile Include="**\*.cs" Exclude="bin\**;obj\**;DuelingCore\**;Tests\**" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Copy SourceFiles="$(OutDir)$(AssemblyName).dll" DestinationFolder="C:\Program Files (x86)\Steam\steamapps\common\VRising\VRising_Server\BepInEx\plugins" />
+  </Target>
+
+</Project>

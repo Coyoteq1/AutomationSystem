@@ -1,0 +1,16 @@
+// Disabled due to missing BuildingPlacementSystem type
+// using HarmonyLib;
+// using ProjectM;
+// using ProjectM.CastleBuilding.Systems;
+
+// namespace CrowbaneArena.Patches
+// {
+//     [HarmonyPatch(typeof(BuildingPlacementSystem), "OnUpdate")]
+//     public static class BuildAnywherePatch
+//     {
+//         public static void Postfix(BuildingPlacementSystem __instance)
+//         {
+//             // Allow building anywhere by skipping validation
+//         }
+//     }
+// }

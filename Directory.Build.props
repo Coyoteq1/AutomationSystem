@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <V_RISING_SERVER_DIR>$(MSBuildThisFileDirectory)..\..\..</V_RISING_SERVER_DIR>
+  </PropertyGroup>
+</Project>

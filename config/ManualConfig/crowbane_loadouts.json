@@ -1,0 +1,214 @@
+{
+  "Loadouts": [
+    {
+      "Name": "berserker",
+      "Description": "Chaos Greatsword Berserker - High damage melee",
+      "Weapons": ["greatsword"],
+      "WeaponMods": "c4",
+      "ArmorSets": ["warrior"],
+      "BloodType": "Warrior",
+      "Consumables": ["blood_rose_potion", "physical_brew"],
+      "Enabled": true,
+      "Default": true,
+      "status": [],
+      "spell": "bear"
+    },
+    {
+      "Name": "assassin",
+      "Description": "Illusion Daggers Assassin - Fast attack speed",
+      "Weapons": ["daggers"],
+      "WeaponMods": "i2",
+      "ArmorSets": ["rogue"],
+      "BloodType": "Rogue",
+      "Consumables": ["blood_rose_potion", "exquisite_brew"],
+      "Enabled": true,
+      "status": [],
+      "spell": "bat"
+    },
+    {
+      "Name": "frost_mage",
+      "Description": "Frost Spear Mage - High spell power",
+      "Weapons": ["spear"],
+      "WeaponMods": "f3",
+      "ArmorSets": ["scholar"],
+      "BloodType": "Scholar",
+      "Consumables": ["blood_rose_potion", "spell_brew"],
+      "Enabled": true,
+      "status": [],
+      "spell": "frost"
+    },
+    {
+      "Name": "tank",
+      "Description": "Unholy Mace Tank - High survivability",
+      "Weapons": ["mace"],
+      "WeaponMods": "u1",
+      "ArmorSets": ["brute"],
+      "BloodType": "Brute",
+      "Consumables": ["blood_rose_potion", "physical_brew"],
+      "Enabled": true,
+      "status": [],
+      "spell": "stone"
+    },
+    {
+      "Name": "storm_archer",
+      "Description": "Storm Crossbow Archer - Ranged DPS",
+      "Weapons": ["crossbow"],
+      "WeaponMods": "s3",
+      "ArmorSets": ["rogue"],
+      "BloodType": "Rogue",
+      "Consumables": ["blood_rose_potion", "spell_brew"],
+      "Enabled": true,
+      "status": [],
+      "spell": "teleport"
+    },
+    {
+      "Name": "blood_knight",
+      "Description": "Blood Sword Knight - Balanced melee",
+      "Weapons": ["sword"],
+      "WeaponMods": "b4",
+      "ArmorSets": ["warrior"],
+      "BloodType": "Warrior",
+      "Consumables": ["blood_rose_potion", "physical_brew"],
+      "Enabled": true,
+      "status": [],
+      "spell": "bloodmend"
+    }
+  ],
+  "Weapons": [
+    {
+      "Name": "sword",
+      "Description": "Sanguine Sword",
+      "Guid": -774462329,
+      "Enabled": true,
+      "status": [],
+      "spell": "bloodmend",
+      "Default": true
+    },
+    {
+      "Name": "axe",
+      "Description": "Sanguine Axe",
+      "Guid": -2044057823,
+      "Enabled": true,
+      "status": [],
+      "spell": "rage"
+    },
+    {
+      "Name": "mace",
+      "Description": "Sanguine Mace",
+      "Guid": -1569279652,
+      "Enabled": true,
+      "status": [],
+      "spell": "stone"
+    },
+    {
+      "Name": "spear",
+      "Description": "Sanguine Spear",
+      "Guid": 1532449451,
+      "Enabled": true,
+      "status": [],
+      "spell": "frost"
+    },
+    {
+      "Name": "greatsword",
+      "Description": "Sanguine Greatsword",
+      "Guid": 147836723,
+      "Enabled": true,
+      "status": [],
+      "spell": "bear"
+    },
+    {
+      "Name": "crossbow",
+      "Description": "Sanguine Crossbow",
+      "Guid": 1389040540,
+      "Enabled": true,
+      "status": [],
+      "spell": "teleport"
+    },
+    {
+      "Name": "daggers",
+      "Description": "Sanguine Daggers",
+      "Guid": 1031107636,
+      "Enabled": true,
+      "status": [],
+      "spell": "bat"
+    }
+  ],
+  "ArmorSets": [
+    {
+      "Name": "warrior",
+      "Description": "Dracula's Warrior Set",
+      "ChestGuid": 1392314162,
+      "LegsGuid": 205207385,
+      "BootsGuid": -382349289,
+      "GlovesGuid": 1982551454,
+      "Enabled": true,
+      "Default": true,
+      "status": [],
+      "spell": "rage"
+    },
+    {
+      "Name": "rogue",
+      "Description": "Dracula's Rogue Set",
+      "ChestGuid": 933057100,
+      "LegsGuid": -345596442,
+      "BootsGuid": 1855323424,
+      "GlovesGuid": -1826382550,
+      "Enabled": true,
+      "status": [],
+      "spell": "bat"
+    },
+    {
+      "Name": "scholar",
+      "Description": "Dracula's Scholar Set",
+      "ChestGuid": 114259912,
+      "LegsGuid": 1592149279,
+      "BootsGuid": 1531721602,
+      "GlovesGuid": -1899539896,
+      "Enabled": true,
+      "status": [],
+      "spell": "frost"
+    },
+    {
+      "Name": "brute",
+      "Description": "Dracula's Brute Set",
+      "ChestGuid": 1033753207,
+      "LegsGuid": 993033515,
+      "BootsGuid": 1646489863,
+      "GlovesGuid": 1039083725,
+      "Enabled": true,
+      "status": [],
+      "spell": "stone"
+    }
+  ],
+  "BloodTypes": [
+    {
+      "Name": "Warrior",
+      "Guid": -516976528,
+      "Enabled": true,
+      "Default": true,
+      "status": [],
+      "spell": "rage"
+    },
+    {
+      "Name": "Rogue",
+      "Guid": -1620185637,
+      "Enabled": true,
+      "status": [],
+      "spell": "bat"
+    },
+    {
+      "Name": "Brute",
+      "Guid": 804798592,
+      "Enabled": true,
+      "status": [],
+      "spell": "stone"
+    },
+    {
+      "Name": "Scholar",
+      "Guid": 1476452791,
+      "Enabled": true,
+      "status": [],
+      "spell": "frost"
+    }
+  ]
+}
