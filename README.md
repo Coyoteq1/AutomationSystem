@@ -1,5 +1,9 @@
 # V Automation
 
+<p align="center">
+  <img src="icon.png" alt="V Automation Icon" width="200"/>
+</p>
+
 V Rising Automation mod for V Rising servers. Players get full VBlood access, curated loadouts, and automatic state restore when they leave the arena.
 
 ## ⚠️ Version Status
