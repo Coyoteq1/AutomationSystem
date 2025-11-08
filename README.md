@@ -2,6 +2,26 @@
 
 V Rising Automation mod for V Rising servers. Players get full VBlood access, curated loadouts, and automatic state restore when they leave the arena.
 
+## ⚠️ Version Status
+
+**Current Version: TESTED & READY FOR USE**
+
+This version has been tested and is safe to use. Note:
+- ✅ VBlood progression restore works
+- ✅ Research/unlocks restore works
+- ⚠️ Ability restore is NOT implemented - working on hybrid system using client-side temp storage
+- No harmful side effects detected
+
+## 🚀 COMING SOON - New Features in Development
+
+- **Upcoming Events System** - Scheduled tournaments, boss rushes, and special events
+- **New High-Level Areas** - Shadowlands and other zones for level 120+ players
+- **Price-Based Entry System** - Coin economy for premium areas and events
+- **Level 120 Progression** - Extended leveling with new bosses and challenges
+- **Enhanced Blood Weapons & Stats** - New weapon types with unique blood abilities
+- **Advanced Math Systems** - Improved damage calculations and stat scaling
+- **Dueling Practice Arena** - Dedicated 1v1 training grounds with matchmaking
+
 ---
 
 ## Requirements
@@ -52,6 +72,15 @@ Changes apply on the next server restart.
 - `.arena give <item> [amount]` – Spawn item(s) while in arena
 - `.arena stats` – View snapshot counts and arena status
 - `.arena swap new <name>` – Create fresh arena-only character shell
+
+### 🆕 Upcoming Commands (In Development)
+
+- `.events` – Show scheduled events and tournaments
+- `.event join <name>` – Join event with coin entry fee
+- `.areas unlock <name>` – Access new high-level zones (level 120+)
+- `.duel challenge <player>` – Challenge player to practice duel
+- `.level progress` – View extended progression to level 120
+- `.blood weapons` – Access new blood-enhanced weapon types
 
 ### Blood & Progression
 
